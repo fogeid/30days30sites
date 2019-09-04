@@ -4,7 +4,7 @@
 
 DAY | LINK
 :--:|:--:
-1   | [click here](https://day1eduardodantas.netlify.com "day 1")
+1   | [click here](https://day01diegobatista.netlify.com/ "day 1")
 2   | [click here](https://day2eduardodantas.netlify.com "day 2")
 3   | [click here](https://day3eduardodantas.netlify.com "day 3")
 4   | [click here](https://day4eduardodantas.netlify.com "day 4")
