@@ -1,3 +1,129 @@
 body {
-    background: #000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+/* HEADER */
+.header .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .nav {
+    padding: 50px 0;
+}
+
+.header .nav ul {
+    display: flex;
+}
+
+.header .nav ul li a {
+    text-decoration: none;
+    color: #524261;
+    padding: 10px;
+    margin-left: 10px;
+    transition: all .3s ease;
+}
+
+.header .nav ul li a:hover {
+    color: #7b6392;
+}
+
+.header .btn {
+    margin: auto 0;
+}
+
+.header .btn button {
+    font-size: 16px;
+    color: #7b6392;
+    padding: 10px 25px;
+    background: #fff;
+    border: 2px solid #7b6392;
+}
+
+.header .btn button:hover {
+    background: #e8e8e8;
+}
+
+/* MAIN */
+.main {
+    width: 100%;
+    background-image: url(../img/bg.jpg);
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+    background-size: cover;
+    text-align: center;
+}
+
+.main .container {
+    padding: 115px 0;
+    color: #fff;
+}
+
+.main .container h2 {
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.main .container h1 {
+    font-size: 80px;
+    margin-bottom: 40px;
+}
+
+.main .container p {
+    margin-bottom: 30px;
+}
+
+.main .btn-main {
+    font-size: 18px;
+    padding: 10px 40px;
+    background: #7b6392;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.main .btn-main:hover {
+    background: #524261;
+}
+
+/* FOOTER */
+.footer {
+    background: #2e2e2e;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .container ul {
+    display: flex;
+    margin: auto 0;
+}
+
+.footer .container ul li a {
+    margin-right: 5px;
+    padding: 10px;
+}
+
+
+
+.footer .container p {
+    font-size: 18px;
+    text-align: center;
+    color: #fff;
+    padding: 25px;
 }
