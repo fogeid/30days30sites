@@ -1,0 +1,183 @@
+body {
+    font-family: 'Bitter';
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;    
+}
+
+/* HEADER */
+.header {
+    background: #505050;
+}
+.header .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.header .logo h1 {
+    font-size: 28px;
+    margin: 30px 0;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.header .logo a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.header .nav {
+    margin: auto 0;
+}
+
+.header .nav ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header .nav ul li a {
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+    padding: 10px;
+    border: 2px solid #505050;
+    border-radius: 10px;
+    transition: all .3s ease;
+}
+
+.header .nav ul li a:hover {
+    background: #383838;
+    border: 2px solid #383838;
+    border-radius: 10px;
+}
+
+/* BACKGROUND */
+.bg img {
+    max-width: 100%;    
+}
+
+/* EMPRESA */
+.empresa {
+    background: #505050;
+    margin-top: -3px;
+}
+
+.empresa .container {
+    text-align: center;
+    padding: 70px 0;
+    color: #fff;
+}
+
+.empresa h1 {
+    font-family: 'Lobster';
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.empresa p {
+    line-height: 1.5;
+}
+
+/* SERVIÇOS */
+.servicos {
+    background: #fff;
+    text-align: center;
+}
+
+.servicos .container {
+    padding: 70px 0;
+}
+
+.servicos h2 {
+    font-family: 'Lobster';
+    font-size: 38px;
+    margin-bottom: 40px;
+}
+
+.servicos .cards ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.servicos .cards ul li {
+    width: 250px;
+    height: 200px;
+    padding: 30px;
+}
+
+.servicos .cards h3 {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.servicos .cards p {
+    padding: 0 30px;    
+}
+
+/* CONTATO - MAPA */
+.contato {
+    background: #505050;
+}
+
+.contato .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 0;
+}
+
+.contato h2 {
+    font-family: 'Lobster';
+    font-size: 28px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.contato .form {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+}
+
+.contato .form input {
+    width: 450px;
+    margin-bottom: 10px;
+    padding: 0 5px;
+}
+
+.contato .form textarea {
+    width: 458px;
+    margin-bottom: 10px;
+}
+
+.contato .form .btn {
+    width: 463px;
+    font-size: 18px;
+    color: #fff;
+    background: #383838;
+    border: none;
+    padding: 11px 0;
+    cursor: pointer;
+    border: 2px solid #383838;
+    transition: all .3s ease;
+}
+
+.contato .form .btn:hover {
+    background: #505050;
+    border: 2px solid #383838;
+}
+
+/* RODAPÉ */
+.rodape {
+    background: #000;
+    text-align: center;
+}
+
+.rodape p {
+    font-size: 18px;
+    color: #fff;
+    padding: 70px 0;
+}
