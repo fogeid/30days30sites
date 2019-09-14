@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
     <head>
-        <title>Caravan</title>
+        <title>30Days30Sites - Diego Batista - Day 05</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">   
@@ -9,6 +9,36 @@
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
+        <!-- MODAL -->
+        <div class="modal fade" id="modalLogin" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Entre na Sua Conta</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                        <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Email</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputPassword1">Senha</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1">
+                            </div>                            
+                            <button type="submit" class="btn btn-primary">Enviar</button>
+                            <div>
+                                <p class="form-text text-muted">Esqueceu a senha? <a href="#">Clique aqui.</a></p>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <!-- MENU -->
         <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top py-3 box-shadow">
             <a href="index.html" class="navbar-brand">
@@ -37,7 +67,7 @@
                         <a class="nav-link" href="contato.html">Contato</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Login</a>
+                        <a class="nav-link" data-toggle="modal" data-target="#modalLogin" href="#">Login</a>
                     </li>
                     <li class="nav-item">
                         <a class="btn btn-outline-primary ml-md-2" href="inscricao.html">Inscreva-se</a>
@@ -88,7 +118,7 @@
                     </div>
                 </div>
 
-                <!-- Newslatter -->
+                <!-- NEWSLATTER -->
                 <div class="col-lg-5 text-light font-weight-normal py-4 align-self-center">
                     <h1 class="display-4">Realize a viagem do seu sonho</h1>
                     <p class="lead">O melhor local para viajar é com a Caravan, mais de 5.000 excursões concluídas.</p>
@@ -271,10 +301,9 @@
                 </div>                
             </div>
             <div class="bg-primary text-center py-3">
-                <p class="mb-0">Caravan © 2017. Alguns direitos reservados.</p>
+                <p class="mb-0">Pure CSS - Diego Batista - 30Days30Sites - DAY 05</p>
             </div>
         </footer>
-
 
         <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
         <script type="text/javascript" src="js/popper.min.js"></script>
