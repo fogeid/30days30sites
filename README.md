@@ -11,7 +11,7 @@ DAY | LINK
 5   | [click here](https://day05diegobatista.netlify.com/ "day 5")
 6   | [click here](https://day06diegobatista.netlify.com/ "day 6")
 7   | [click here](https://day07diegobatista.netlify.com/ "day 7")
-8   | [click here](https://day8eduardodantas.netlify.com "day 8")
+8   | [click here](https://day08diegobatista.netlify.com "day 8")
 9   | [click here](https://day9eduardodantas.netlify.com "day 9")
 10   | [click here](https://day10eduardodantas.netlify.com "day 10")
 11   | [click here](https://day11eduardodantas.netlify.com "day 11")
