@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Racing+Sans+One&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    max-width: 940px;
+    margin: 0 auto;
+}
+
+
+/* HEADER */
+.header {
+    border-bottom: 1px solid #ececec;
+}
+
+.header .login {
+    padding: 10px 0;
+    background: #B7E876;
+}
+
+.header .login ul {
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.header .login ul li a {
+    margin-left: 15px;
+    font-weight: bold;
+    font-size: 12px;
+    text-decoration: none;
+    color: #000;
+}
+
+.header .login ul li a:hover {
+    color: #3a3a3a;
+}
+
+.header .logo-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 0;
+    align-items: center;
+}
+
+.header .logo-menu .menu-header ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.header .logo-menu .menu-header ul li a {
+    font-size: 14px;
+    color: #9b9b9b;
+    text-decoration: none;
+    padding-left: 20px;    
+}
+
+.header .logo-menu .menu-header ul li a:hover {
+    color: #000;
+}
+
+/* MAIN */
+.main {
+    padding: 40px 0;
+}
+
+.main h1 {
+    font-family: 'Racing Sans One', cursive;
+    font-size: 34px;
+    color: #3a9b00;
+}
+
+.main .content {
+    max-width: 940px;
+}
+
+.main .cards {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;    
+}
+
+.main .cards li img {
+    max-width: 250px;
+}
+
+.main .cards .item {
+    flex: 1;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.main .cards h2 {
+    margin: 20px 0;
+    font-weight: normal;
+    font-size: 24px;
+}
+
+.main .cards p {
+    line-height: 2em;
+    max-width: 250px;
+    margin: 0 auto;
+}
+
+.main .cards a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #3a9b00;
+    display: block;
+    margin: 20px 0;
+}
+
+/* FOOTER */
+.rodape .container {
+    display: flex;
+    flex-direction: column;
+}
+
+.rodape .menu-rodape {
+    background: #3a3a3a;
+}
+
+.rodape .menu-rodape ul {
+    padding: 20px 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.rodape .menu-rodape ul li {
+    margin: 0 auto;
+}
+
+.rodape .menu-rodape ul li a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+}
+
+.rodape .menu-rodape ul li a:hover {
+    color: #7c7c7c;
+}
+
+.rodape p {
+    padding: 10px 0;
+    text-align: center;
+    font-weight: bold;
+}
