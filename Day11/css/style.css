@@ -1,5 +1,5 @@
 /* GERAL */
-.titulo {
+.title {
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
     font-size: 40px;
@@ -7,7 +7,7 @@
     margin: 20px 0;
 }
 
-.subtitulo {
+.subtitle {
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
     font-size: 30px;
@@ -20,21 +20,26 @@
     margin: 0 auto;
 }
 
-.cite p {
-    max-width: 580px;
+.cite {
+    max-width: 600px;
     margin: 0 auto;
-    color: #5d5d5d;
-    text-align: center;
-    font-style: italic;
+    margin-bottom: 40px;
 }
 
-.cite::after,
-.cite::before {
+.cite p {
+    color: #5d5d5d;
+    font-style: italic;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.cite p::after,
+.cite p::before {
     content: '';
-    display: inline-block;
+    display: block;
     width: 60px;
     height: 1px;
-    margin: 20px;    
+    margin: 20px auto;    
     background: #5d5d5d;
 }
 
@@ -188,4 +193,105 @@
     color: #5d5d5d;
     max-width: 300px;
     margin: 0 auto;
+}
+
+/* ABOUT ME */
+.about {
+    display: flex;
+    flex-direction: row;
+}
+
+.about-img {
+    max-width: 50%;
+}
+
+.about-img img {
+    max-width: 100%;
+}
+
+.about-description {
+    text-align: center;
+    margin: 0 auto;
+    align-self: center;
+}
+
+.about .about-description .about-hobby ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.about .about-description .about-hobby ul li h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase; 
+}
+
+.about .about-description .about-hobby ul li p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    max-width: 250px;
+    color: #5d5d5d;
+    margin-top: 20px;
+}
+
+/* COTE */
+.cote {
+    background: #eeeeee;
+    padding: 120px;
+}
+
+.cote .cite {
+    color: #5d5d5d;
+    text-align: center;
+}
+
+/* CONTACT */
+.contact {
+    padding: 120px 0;    
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact form input {
+    padding: 10px;
+    border: 1px solid #eeeeee;
+    margin-bottom: 20px;
+}
+
+.contact form textarea {
+    padding: 10px;
+    border: 1px solid #eeeeee;
+    margin-bottom: 20px;
+}
+
+.contact form button {
+    font-family: 'Roboto', sans-serif;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    background: #5d5d5d;
+    color: #fff;
+    text-transform: uppercase;
+    transition: all .5s ease;
+}
+
+.contact form button:hover {
+    background: #000;
+}
+
+/* FOOTER */
+.footer p {
+    text-align: center;
+    color: #fff;
+    padding: 40px 0;
+    background: #363636;
 }
