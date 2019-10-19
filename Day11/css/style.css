@@ -1,0 +1,153 @@
+/* GERAL */
+.titulo {
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-size: 40px;
+    letter-spacing: 3px;
+    margin: 20px 0;
+}
+
+.subtitulo {
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-size: 30px;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+}
+
+.container {
+    max-width: 1150px;
+    margin: 0 auto;
+}
+
+.cite p {
+    max-width: 580px;
+    margin: 0 auto;
+    color: #5d5d5d;
+    text-align: center;
+    font-style: italic;
+}
+
+.cite::after,
+.cite::before {
+    content: '';
+    display: inline-block;
+    width: 60px;
+    height: 1px;
+    margin: 20px;    
+    background: #5d5d5d;
+}
+
+/* HEADER */
+.header {
+    background: url('../img/bg-home.jpg') no-repeat fixed;
+    background-size: cover;
+    height: 650px;    
+}
+
+.header .text-header {
+    color: #fff;
+    text-align: center;
+    padding-top: 280px;
+}
+
+.header .text-header p {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 18px;
+}
+
+/* NAV */
+.logo-menu {
+    border-bottom: 1px solid #eeeeee;
+    margin-bottom: 80px;
+}
+
+.logo-menu .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;    
+}
+
+.logo-menu .logo {
+    margin: auto 0;
+}
+
+.logo-menu .logo a {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-decoration: none;
+    color: #000;
+}
+
+.logo-menu .menu ul {
+    display: flex;
+    flex-direction: row;
+    padding: 20px 0;
+}
+
+.logo-menu ul li a {
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    font-size: 14px;
+    text-decoration: none;
+    color: #000;
+    padding: 20px;
+    text-transform: uppercase;
+    transition: all .5s ease;
+}
+
+.logo-menu ul li a:hover {
+    background: red;
+    color: #fff;
+}
+
+/* MY WORKS */
+.my-works {
+    text-align: center;
+}
+
+.my-works .my-works-menu {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.my-works .my-works-menu ul {
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+}
+.my-works .my-works-menu ul li a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    margin-left: 15px;
+    padding: 10px 20px;
+    background: #eeeeee;
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 2px;
+    transition: all .5s ease;
+}
+
+.my-works .my-works-menu ul li a:hover {
+    background: red;
+    color: #fff;
+}
+
+.my-works .cards ul {
+    margin: 0 auto;
+    max-width: 98%;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.my-works .cards ul li img {
+    max-width: 420px;    
+}
